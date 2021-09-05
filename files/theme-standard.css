@@ -1,0 +1,257 @@
+.dk-speakup-petition-wrap {
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px !important;
+	line-height: 1.3em !important;
+	border: 1px solid #444;
+	background-color: #33232E;
+	width: 634px;
+	line-height: 1.2em !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	position: relative;
+	text-shadow: none;
+	margin: 0 auto;
+}
+.dk-speakup-petition-wrap a {
+	text-decoration: none;
+	outline: none;
+}
+.dk-speakup-petition-wrap p { margin: 0 0 .75em 0; }
+.dk-speakup-petition-wrap h3 {
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	border-bottom: 0px solid #fff;
+	font: bold 16px/1.4em Helvetica, Arial, sans-serif;
+	text-shadow: none;
+	margin: 0 0 0 0 !important;
+	color: #f9efc6 !important;
+	padding: 6px 8px 6px 12px;
+	background: #353535 url(images/bg-petition-header.png) repeat-x top left;
+}
+.dk-speakup-petition-wrap input, .dk-speakup-petition-wrap textarea, .dk-speakup-message {
+	color: #45394A;
+	font: 14px/1.4em Helvetica, Arial, sans-serif !important;
+	margin: 0 0 6px 0;
+	padding: 0 0 0 2px;
+}
+.dk-speakup-petition-wrap input[type=text], .dk-speakup-petition-wrap textarea, .dk-speakup-message {
+	border: 1px solid #333;
+	background: #45394A;
+	color: #F9EFC6;
+}
+
+.dk-speakup-first-name-wrap { margin: 0 0px 0 8px; clear: both; }
+.dk-speakup-email-wrap,
+.dk-speakup-address-wrap,
+.dk-speakup-message-wrap,
+.dk-speakup-submit-wrap,
+.dk-speakup-optin-wrap { margin: 0 8px 0 8px; clear: both; }
+.dk-speakup-last-name-wrap { margin: 0 0 0 4px; }
+
+.dk-speakup-petition-wrap textarea,
+input.dk-speakup-email { width: 278px; }
+
+input.dk-speakup-first-name,
+input.dk-speakup-last-name { width: 135px; }
+
+.dk-speakup-first-name-wrap,
+.dk-speakup-last-name-wrap { margin-top: 10px; }
+
+.dk-speakup-petition-wrap input { height: 20px; }
+textarea.dk-speakup-address { height: 50px !important; }
+.dk-speakup-message {
+	height: 220px !important;
+	overflow: auto;
+	padding: 4px;
+	background-color: #222;
+}
+.dk-speakup-greeting { font-weight: bold; }
+.dk-speakup-first-name-wrap { float: left; }
+.dk-speakup-last-name-wrap { float: left; }
+
+.dk-speakup-submit-wrap {
+	text-align: center;
+	margin: 13px 0 20px 0;
+}
+.dk-speakup-submit {
+	border: 1px solid #f95700;
+	padding: 6px 12px 4px 12px;
+	font-size: 18px;
+	font-weight: bold;
+	background: #fc861d url(images/bg-submit-button.png) repeat-x top left;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	text-shadow: 0px 2px 1px #c94600;
+	cursor: pointer;
+}
+.dk-speakup-submit span { color: #fff; }
+.dk-speakup-response, .dk-speakup-share {
+	margin: 10px 13px 1em 10px;
+	display: none;
+}
+.dk-speakup-notice {
+	margin: 10px 13px 0 10px;
+	margin-bottom: 1em;
+}
+
+/* highlight colors used in form validation */
+.dk-speakup-error {
+	border: 1px solid #c00 !important;
+	background-color: #45394A !important;
+}
+
+/* label styles */
+.dk-speakup-petition-wrap label {
+	font: normal 13px/1.4em Helvetica, Arial, sans-serif;
+	position: absolute;
+	z-index: 3;
+	margin: 2px 5px 0 5px;
+	display: block;
+	color: #999;
+}
+
+/* email opt-in checkbox */
+.dk-speakup-optin-wrap { margin: 0 8px 1em 8px; }
+.dk-speakup-optin-wrap label {
+	color: #444;
+	position: relative;
+	display: inline;
+	line-height: 1.1em;
+	vertical-align: text-top;
+}
+.dk-speakup-optin-wrap input {
+	vertical-align: text-bottom;
+	margin: 0;
+}
+.dk-speakup-blur { visibility: visible; }
+.dk-speakup-focus { visibility: hidden; }
+
+/* sharing links */
+a.dk-speakup-facebook {
+	background: url(/web/20111106082331im_/http://www.nitromemustdie.com/wp-content/plugins/speakup-email-petitions/images/button-facebook.png);
+	display: block;
+	height: 37px;
+	width: 130px;
+	float: left;
+	margin: 0 0 10px 0;
+}
+a.dk-speakup-twitter {
+	background: url(/web/20111106082331im_/http://www.nitromemustdie.com/wp-content/plugins/speakup-email-petitions/images/button-twitter.png);
+	display: block;
+	height: 37px;
+	width: 130px;
+	float: left;
+	margin: 0 0 10px 10px;
+}
+
+/* progress bar styles */
+.dk-speakup-progress-wrap {
+	background-color: #33232E;
+	border-top: 1px solid #111;
+	margin-top: 10px;
+	padding: 5px 0 5px 0;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	text-align: center;
+}
+.dk-speakup-signature-count {
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: 10%;
+	margin: 0 5px 0 0;
+}
+.dk-speakup-signature-count span { font-weight: bold; }
+.dk-speakup-progress {
+	display: inline-block;
+	background: #e5e5e5 url(/web/20111106082331im_/http://www.nitromemustdie.com/wp-content/plugins/speakup-email-petitions/images/bg-progressbar.png) repeat-x top left;
+	height: 10px;
+	border: 1px solid #999;
+}
+.dk-speakup-progressbar { height: 10px; }
+.dk-speakup-progressbar-low { background: #999 url(/web/20111106082331im_/http://www.nitromemustdie.com/wp-content/plugins/speakup-email-petitions/images/bg-progressbar.png) repeat-x top left; }
+.dk-speakup-progressbar-medium { background: #09f url(/web/20111106082331im_/http://www.nitromemustdie.com/wp-content/plugins/speakup-email-petitions/images/bg-progressbar.png) repeat-x top left; }
+.dk-speakup-progressbar-complete { background: #3c0 url(/web/20111106082331im_/http://www.nitromemustdie.com/wp-content/plugins/speakup-email-petitions/images/bg-progressbar.png) repeat-x top left; }
+
+/* expired petition styles */
+.dk-speakup-expired-deadline,
+.dk-speakup-expired-signatures,
+.dk-speakup-expired-goal {
+	font-size: .9em;
+	margin: .25em 0 .25em 0;
+}
+
+.dk-speakup-expired-deadline span,
+.dk-speakup-expired-signatures span,
+.dk-speakup-expired-goal span { font-weight: bold; }
+
+/* misc */
+.dk-speakup-clear { clear: both; }
+
+/* ----------------------------------------
+ 	Mobile Devices (tested on emulators)
+------------------------------------------- */
+
+/* iPad */
+@media only screen and (device-width: 768px) {
+	.dk-speakup-first-name-wrap,
+	.dk-speakup-last-name-wrap { width: 45%; }
+
+	.dk-speakup-first-name-wrap,
+	.dk-speakup-email-wrap,
+	.dk-speakup-address-wrap,
+	.dk-speakup-message-wrap,
+	.dk-speakup-submit-wrap { margin-left: 6px; }
+	.dk-speakup-last-name-wrap { margin-left: 10px; }
+
+	.dk-speakup-petition-wrap textarea { width: 278px; }
+	input.dk-speakup-email { width: 274px; }
+
+	input.dk-speakup-first-name,
+	input.dk-speakup-last-name { width: 130px; }
+}
+.dk-speakup-date{
+	text-align:right;
+}
+/* iPhone and Opera Mini */
+@media only screen and (max-device-width: 480px) {
+	.dk-speakup-first-name-wrap,
+	.dk-speakup-last-name-wrap { width: 45%; }
+
+	.dk-speakup-first-name-wrap,
+	.dk-speakup-email-wrap,
+	.dk-speakup-address-wrap,
+	.dk-speakup-message-wrap,
+	.dk-speakup-submit-wrap { margin-left: 6px; }
+	.dk-speakup-last-name-wrap { margin-left: 10px; }
+
+	.dk-speakup-petition-wrap textarea { width: 278px; }
+	input.dk-speakup-email { width: 274px; }
+
+	input.dk-speakup-first-name,
+	input.dk-speakup-last-name { width: 130px; }
+
+}
+/*
+     FILE ARCHIVED ON 08:23:31 Nov 06, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:08:29 Sep 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.242
+  CDXLines.iter: 18.36 (3)
+  LoadShardBlock: 196.331 (3)
+  captures_list: 228.756
+  PetaboxLoader3.datanode: 118.179 (4)
+  exclusion.robots: 0.257
+  load_resource: 36.551
+  esindex: 0.015
+  PetaboxLoader3.resolve: 20.211
+  RedisCDXSource: 9.997
+*/
