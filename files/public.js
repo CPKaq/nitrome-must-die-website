@@ -45,7 +45,7 @@ jQuery( document ).ready( function( $ ) {
 			$( petition_wrap ).find( '.dk-speakup-last-name' ).addClass( 'dk-speakup-error' );
 			errors ++;
 		}
-
+/*
 		// if no errors found, submit the data via ajax
 		if ( errors == 0 ) {
 			var data = {
@@ -78,7 +78,7 @@ jQuery( document ).ready( function( $ ) {
 				}
 			);
 		}
-
+*/
 		return false;
 	});
 
