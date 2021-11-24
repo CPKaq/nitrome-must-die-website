@@ -2722,3 +2722,53 @@ playback timings (ms):
   exclusion.robots: 0.309
   CDXLines.iter: 19.785 (3)
 */
+
+/*-------nitrome must die reloaded additions-----*/
+#site-generator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    flex-grow: 1;
+}
+
+.footer-about {
+    flex-basis: 20%;
+    text-align: left;
+    padding: 0 1em;
+    color: #caa50f;
+}
+
+.footer-languages {
+    flex-basis: 20%;
+    text-align: right;
+    padding: 0 1em;
+    color: #caa50f;
+    position: relative;
+}
+
+.footer-languages-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    right: 0;
+    bottom: 100%;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 1;
+}
+
+.footer-languages:hover .footer-languages-list {
+    display: block;
+    background: #45394a;
+    border: 1px solid #33232e;
+}
+
+.footer-languages-list a {
+	display: block;
+}
